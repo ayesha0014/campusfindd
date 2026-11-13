@@ -2,8 +2,7 @@
 Lost & found app for University of Lahore students.
 
 - **App name / icon:** CampusFind (own icon)
-- **Team:** YourTeamName | **Entry ID:** ANxx
-- **Members:** Name 1 (SAP ID), Name 2 (SAP ID), Name 3 (SAP ID)
+- **Members:** Ayesha Murtaza(70149530), Maham fatima (70146948), 
 
 ## Stack
 Native Android, Java, XML layouts, Material Design 3 (Material Components), SQLite (local database),
@@ -17,5 +16,4 @@ current location, database, session/logout, open in maps, nearby, filter + mark 
 1. Open the project in Android Studio and let Gradle sync.
 2. Run on an emulator (set a location in Extended controls) or a phone.
 
-## Screenshots
-Add 3-5 screenshots here.
+
