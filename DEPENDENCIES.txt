@@ -1,0 +1,17 @@
+Paste these inside  dependencies { ... }  of  app/build.gradle  (Module: app).
+Keep the other lines your template already has (like testImplementation).
+
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+Also make sure inside  android { ... }  you have:
+
+    compileSdk 33          (31 or higher is fine - keep your template's number if it is 31+)
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+Then click "Sync Now".

@@ -1,0 +1,23 @@
+1) Android Studio -> New Project -> "Empty Activity" (NOT Compose) ->
+     Name: CampusFind
+     Package name: com.uol.campusfind
+     Language: Java
+     Minimum SDK: API 24
+   Finish and wait for Gradle sync.
+
+2) In the Project panel (switch to "Project" view, not "Android" view) open app/src/main/ :
+   a) Delete the template's MainActivity.java (in java/com/uol/campusfind/).
+   b) Copy ALL .java files from this zip's java/com/uol/campusfind/ into that same folder.
+   c) Delete the template's res/layout/activity_main.xml, then copy all files from this zip's res/layout/,
+      res/drawable/, res/menu/ into res/.
+   d) Copy res/values/themes.xml over the template's one. DELETE the folder res/values-night/ (if it exists).
+   e) Delete ALL template icon folders: res/mipmap-anydpi-v26, mipmap-anydpi, and every mipmap-*dpi.
+      Then copy this zip's res/mipmap-* folders in.
+   f) Replace AndroidManifest.xml with this zip's. If your template's manifest had NO package="..." line,
+      remove the package line from mine.
+
+3) Do DEPENDENCIES.txt (app/build.gradle) -> Sync Now.
+
+4) Fill in team details in Config.java.
+
+5) Run on an emulator / phone. APK: Build -> Build Bundle(s)/APK(s) -> Build APK(s).
